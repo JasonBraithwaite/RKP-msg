@@ -10,3 +10,31 @@ button{
     justify-content: center;
     border: solid pink 1 px;
 }
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(248, 62, 93);
+}
+
+p{
+    font-size: 18px;
+}
+
+img {
+    border-radius: 12px;
+    border:rgb(248, 62, 93) solid 2px;
+}
+
+h1{
+    color: rgb(248, 62, 93);
+}
+
+button{
+    background-color: rgb(248, 62, 93);
+}
+
+.message{
+    border:rgb(248, 62, 93) solid 2px;
+    border-radius: 12px;
+    padding: 10px;
+}
