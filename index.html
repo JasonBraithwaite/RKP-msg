@@ -32,8 +32,12 @@
 
 
     <script type="text/javascript">
-        document.getElementById("button-pressed").onclick = function () {
-            location.href = "/answer.html";
+        /* document.getElementById("button-pressed").onclick = function () 
+            location.href = "/answer.html"; */
+        document.getElementById("button-pressed").addEventListener("click", myFunction);
+
+        function myFunction() {
+            window.location.href = "answer.html";
         };
     </script>
 </body>
